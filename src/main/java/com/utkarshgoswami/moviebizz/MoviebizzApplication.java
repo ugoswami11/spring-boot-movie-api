@@ -15,7 +15,7 @@ public class MoviebizzApplication {
 		SpringApplication.run(MoviebizzApplication.class, args);
 	}
 
-	@Bean
+	@Bean 
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
 			@Override
